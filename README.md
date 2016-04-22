@@ -1,6 +1,19 @@
 # inda-project-guidelines
 
-This document is meant to be a sort of guidline for how to do your INDA project.
+## Setup help
+As you probably know by now, having access to a piece of code and being able to build/test/run that code are two different things. You want to make it as simple as possible to get a working dev environment up and running which means clear, unambiguous documentation:
+
+- What OS are you running on? Not just _"Windows/Mac/Linux"_ but an actual description of what I should download, like _"Fedora 23 x64"_.
+- What packages/programs are needed? Again, don't say _"Python"_, say _"the_ `dnf` _package_ `python 2.7.10-8.fc23`_"_.
+- What libraries do you use? How do I install them? Again, version numbers are important. If at all possible, use a package manager for this (`npm`, `pip`, `CocoaPods` etc.) and store the config files in the repo.
+- Finally, how can I build/test/run your code? If you use Eclipse, commit the project files to the repo. If you've written a Bash script, commit that. If you normally just `javac` your way to glory, state that explicitly too.
+
+If possible you should run through your instructions on a clean machine to make sure you haven't missed anything. This doesn't just make life easier for outside contributors, it makes life easier for you too! If you can't reproduce your dev environment, what will you do if your laptop catches fire and/or you spill coffee on it and/or it gets stolen? I'll tell you what: Spend a week crying at the keyboard trying to figure out why Java says `Error: Could not find or load main class Main`. Not fun 🙈
+
+Apart from good documentation, there's a couple of general tips to keep in mind when developing that can save you a lot of headaches later on:
+
+- Simple is good: Do you _really_ have to run a hardened Gentoo installation with a manually patched compiler? Could you not just use Ubuntu 16.04 and `apt-get` a few packages?
+- Stick to the language's development conventions. For example, use `npm` instead of Bash scripts if you're writing server-side JavaScript. You're much more likely to find help online if you follow the beaten path.
 
 ## Licensing
 _Disclaimer: I am not a lawyer_
