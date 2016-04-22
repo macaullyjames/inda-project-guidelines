@@ -1,5 +1,16 @@
 # inda-project-guidelines
 
+## Development guidelines
+When you're writing code on your own you can pretty much do whatever you like. Bad commit? Eh, `git push -f`. In a rush? You know what you've changed, `lolololol` is a perfectly adequate commit message. Nobody knows and nobody cares.
+
+This kind of anarchy doesn't scale well to teams with more than one member though. You'll be much more productive if you lay down some ground rules based around *respect* and *trust*, like _"Let's make sure we peer review each other's code before pushing to_ `master`_"_ or _"Let's stick to Google's coding conventions so our programming style is consistent"_. You should write these rules down, preferably in a file called CONTRIBUTING.md in the repo.
+
+It's up to you and your team how comprehensive these guidelines are. For example, the CoffeeScript development [guidelines](https://github.com/jashkenas/coffeescript/blob/master/CONTRIBUTING.md) are a four point list. The Auctionet dev team have an entire [handbook](https://github.com/barsoom/devbook) detailing everything from [deploying without downtime](https://github.com/barsoom/devbook/tree/master/deploy_without_downtime) to [how many pizzas to order for a meetup](https://github.com/barsoom/devbook/blob/ddc8c44c045d4c150435b8333b8a213a446e0402/arranging_a_meetup/README.md#order).
+For small projects it's enough to make clear:
+
+- How should I contribute code? Send a PR or push to a branch? Do I base off of `master` or some other branch? Should I rebase or merge?
+- Is there a style guide I should follow? (No is an OK answer!)
+
 ## Setup help
 As you probably know by now, having access to a piece of code and being able to build/test/run that code are two different things. You want to make it as simple as possible to get a working dev environment up and running which means clear, unambiguous documentation:
 
