@@ -1,6 +1,5 @@
 # inda-project-guidelines
 
-
 ## Picking a project
 Picking a project is really easy: Think of a project you'd like to do and pick it. Just keep in mind that
 - You must work in pairs (within the same övning group).
@@ -35,15 +34,13 @@ Have an idea for a cool feature? Open an issue and label it as an `enhancement`.
 ## First steps
 OK, so you've chosen a project and stack and everything seems to be working as expected. If you haven't done so yet, create a repo for your project. I **strongly** recommend using `github.com` instead of `gits-15` because this is a really nice opportunity to fill out your CV (also you get free access to CI servers etc.), but the choice is yours. Remember to add your partner as a collaborator either way.
 
-Now, the very first thing you should do is to spec out your MVP. Open an issue and discuss what it should contain. Upload pretty pictures depicting how it will look (you can upload images in the comments). Don't get carried away here: Every time you feel like you should add something, ask "will we still pass if we don't do this?" and if the answer is "yes" then leave it out. These ideas are worth keeping for later on, of course, and you should open a seperate issue for each of them for further discussion.
+**Now, the very first thing you should do is to spec out your MVP.** Open an issue and discuss what it should contain. Upload pretty pictures depicting how it will look (you can upload images in the comments). Don't get carried away here: Every time you feel like you should add something, ask "will we still pass if we don't do this?" and if the answer is "yes" then leave it out. These ideas are worth keeping for later on, of course, and you should open a seperate issue for each of them for further discussion.
 
-By the end of this discussion you should have a very concrete idea of what your MVP will look like. Now you need to figure out how to build it. This is hard. Don't try and make an elaborate plan at the beginning of the project describing how you'll spend each of your 160 hours; [it won't work](http://www.infoq.com/resource/articles/scaling-software-agility/en/resources/ch02.pdf). The best you can do is to continuously improve your project in small iterations. Again, the issue tracker is important here; if you've just finished implementing a feature you're probably the most knowledgable about what needs to be done next. It's tempting just to leave your partner out of the loop and avoid all the overhead of communication in the name of Getting Stuff Done. Don't do this. It's _very_ easy to get left behind in small projects like this and you'll quickly end up with a useless partner.
+By the end of this discussion you should have a very concrete idea of what your MVP will look like. Now you need to figure out how to build it. This is hard. **Don't try and make an elaborate plan** at the beginning of the project describing how you'll spend each of your 160 hours; [it won't work](http://www.infoq.com/resource/articles/scaling-software-agility/en/resources/ch02.pdf). The best you can do is to continuously improve your project in small iterations. Again, the issue tracker is important here; if you've just finished implementing a feature you're probably the most knowledgable about what needs to be done next. It's tempting just to leave your partner out of the loop and avoid all the overhead of communication in the name of Getting Stuff Done. Don't do this. It's _very_ easy to get left behind in small projects like this and you'll quickly end up with a useless partner.
 
-When you're done implementing a feature, open an issue decribing what you think needs to be done next. It's important knowledge for everyone involved in the project and makes it a lot easier for your partner to take over where you left off. Even if you plan to do the work yourself, it gives your partner the chance to chip in with ideas. If you feel like this is a waste of time, like all you're doing is opening issues, then try making the issues a bit larger in scope.
+**When you're done implementing a feature, open an issue decribing what you think needs to be done next.** It's important knowledge for everyone involved in the project and makes it a lot easier for your partner to take over where you left off. Even if you plan to do the work yourself, it gives your partner the chance to chip in with ideas. If you feel like this is a waste of time, like all you're doing is opening issues, then try making the issues a bit larger in scope.
 
 With that said, all that's left to do now is open a few issues describing your first steps towards the MVP 🤓 
-
-
 
 ## Development guidelines
 When you're writing code on your own you can pretty much do whatever you like. Bad commit? Eh, `git push -f`. In a rush? You know what you've changed, `lolololol` is a perfectly adequate commit message. Nobody knows and nobody cares.
