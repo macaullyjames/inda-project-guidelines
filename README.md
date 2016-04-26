@@ -10,6 +10,21 @@ Picking a project is really easy: Think of a project you'd like to do and pick i
 
 That said, you can choose any language/framework you want, and target any hardware you want too. Want to make a simple Tower Defence style game for iOS? Great! Want to hook up a water gun to an Arduino, a camera and an object recognition library? Fantastic. Want to make yet another queue system for the labs? That's... actually, please don't do that. You get the point though. Bring out your inner Master Builder: everything is awesome.
 
+## Choosing a stack
+Now that you've picked what you'd like to work on, it's time to start thinking about how you're actually going to pull it off. Some facts that can help you make informed decisions:
+
+- The course is worth 3.0 hp, which translates to about 80 hours of work in total. You work in pairs so you have a total of 160 hours to devote to the project. However...
+- [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) is a thing.
+- Have _either_ of you led a team before? Probably not.
+- Have _both_ of you worked in the target environment before? Probably not.
+- Have _both_ of you used Git/Github for collaboration? Probably not.
+
+So basically you're about to undertake a project that might not be technically possible, in a stack that you're probably not familiar with, with someone you probably haven't worked with before and that may or may not be technically capable. Oh, and there's a hard deadline you need to hit if you want to pass the course. Let's be clear: **This is practically the definition of a bad project**, and you're fooling yourself if you think that 160 hours is a lot of time to work with. As such, your number one priority from the very beginning is **risk mitigation**. Remember, we just want you to present a working demo of _something_ resembling a project on demo day. Nobody has ever failed because they didn't make enough DLC to go with their game. You will fail, however, if your game is actually just a bunch of half-finished maps that you can't play because you ran out of time. Sure, Ubisoft might hire you, but you will not pass this course. The notion of "the smallest product you can produce and still get by" is called a [minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product) (MVP) and is also a thing.
+
+**The decisions you make before you start writing code will have much more impact on the project than the code you write.** Yes, it's entirely possible to use Java Swing for your game and write a simple physics engine from scratch, but will it help you build your MVP faster? Probably not. Spend a couple of hours researching viable options. If you're making a mobile app it might be better to use an HTML5-based solution such as [Cordova](https://cordova.apache.org) rather than the native stack. On the other hand, you're already familiar with Java so the opposite might be true if you're targetting Android specifically. Define the target platforms in terms of devices, OS, screen sizes etc. and make sure you can test on those platforms. Don't target "Android" if you've never worked with relative layouts before, instead let the target platform of your MVP be "Nexus 7 phones running Android Marshmallow" (if you have a Nexus 7 running Android Marshmallow, of course).
+
+Get your development/testing environments of _both_ team members up and running as soon as possible. **Do not underestimate how much time this can take.** That library you want to use won't work in Ubuntu, the emulator you need won't render properly in Android Studio and the device you're testing on won't be recognised by the IDE. Seriously. Trust me. Don't believe the marketing on the framework's web page; download it, install it and make sure it works on both your machines. Do not invest in your chosen stack before you've done this.
+
 ## Development guidelines
 When you're writing code on your own you can pretty much do whatever you like. Bad commit? Eh, `git push -f`. In a rush? You know what you've changed, `lolololol` is a perfectly adequate commit message. Nobody knows and nobody cares.
 
