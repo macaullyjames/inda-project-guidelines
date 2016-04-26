@@ -1,5 +1,15 @@
 # inda-project-guidelines
 
+
+## Picking a project
+Picking a project is really easy: Think of a project you'd like to do and pick it. Just keep in mind that
+- You must work in pairs (within the same övning group).
+- You must present a working demo at the final övning.
+- You must use Git/Github to drive the development process (more on this further down).
+- This is a programming project. You can't spend four weeks in a WYSIWYG editor making an elaborate PowerPoint.
+
+That said, you can choose any language/framework you want, and target any hardware you want too. Want to make a simple Tower Defence style game for iOS? Great! Want to hook up a water gun to an Arduino, a camera and an object recognition library? Fantastic. Want to make yet another queue system for the labs? That's... actually, please don't do that. You get the point though. Bring out your inner Master Builder: everything is awesome.
+
 ## Development guidelines
 When you're writing code on your own you can pretty much do whatever you like. Bad commit? Eh, `git push -f`. In a rush? You know what you've changed, `lolololol` is a perfectly adequate commit message. Nobody knows and nobody cares.
 
